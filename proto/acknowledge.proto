@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto.acknowledge;
+option go_package = "streaming-grpc-with-mtls/proto";
+
+service AcknowledgementService {
+  rpc Ack (stream AckRequest) returns (stream AckResponse);  
+}
+
+message AckRequest {
+   string message = 1;
+}
+
+message AckResponse {
+   string message = 1;
+}

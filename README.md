@@ -1,4 +1,4 @@
-# Streaming Bidirectional gRPC Server With mTLS Authentication
+# Streaming Bidirectional gRPC Server With mTLS Authentication - a Golang Example
 
 ## Requirements:
 - Golang 1.16
